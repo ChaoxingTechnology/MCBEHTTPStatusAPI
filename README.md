@@ -5,7 +5,7 @@ MCBEHTTPStatusAPI是一个基于Java 17编写的Minecraft基岩版服务器状�
 
 ## 安装和使用
 
-1. 从[Releases](https://github.com/your-username/MCBEHTTPStatusAPI/releases)页面下载最新的构建版本。
+1. 从[Releases](https://github.com/ChaoxingTechnology/MCBEHTTPStatusAPI/releases/tag/releases)页面下载最新的构建版本。
 
 2. 确保您的系统已经安装了Java 17运行时环境。
 
@@ -49,4 +49,4 @@ MCBEHTTPStatusAPI是一个基于Java 17编写的Minecraft基岩版服务器状�
 版权和许可
 MCBEHTTPStatusAPI基于GPL许可证发布，详细信息请参阅LICENSE文件。
 
-部分代码来自https://github.com/PetteriM1/BedrockServerQuery，并进行了重构和优化。
+部分代码来自https://github.com/PetteriM1/BedrockServerQuery ,并进行了重构和优化。
