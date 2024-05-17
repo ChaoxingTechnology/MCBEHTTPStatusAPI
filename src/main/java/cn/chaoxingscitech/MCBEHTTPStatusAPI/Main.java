@@ -1,5 +1,6 @@
 package cn.chaoxingscitech.MCBEHTTPStatusAPI;
 
+import cn.chaoxingscitech.MCBEHTTPStatusAPI.handle.ConvertColor;
 import cn.chaoxingscitech.MCBEHTTPStatusAPI.handle.GetData;
 import com.sun.net.httpserver.HttpServer;
 
@@ -10,7 +11,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
         int port = 8888;
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-        server.createContext("/get", new GetData());
+        server.createContext("/status", new GetData());
+        server.createContext("/convert-color", new ConvertColor());
         server.start();
         System.out.println("服务启动成功,默认端口: "+port);
     }
